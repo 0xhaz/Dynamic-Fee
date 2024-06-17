@@ -4,3 +4,15 @@ out = "out"
 libs = ["lib"]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+solc_version = '0.8.26'
+evm_version = "cancun"
+via_ir = false
+optimizer = true
+optimizer_runs = 800
+ffi = true
+
+[rpc_endpoints]
+mainnet = "wss://mainnet.infura.io/ws/v3/074e6045535d48209742de982d6dad5a"
+sepolia = "wss://sepolia.infura.io/ws/v3/074e6045535d48209742de982d6dad5a"
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
